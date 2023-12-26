@@ -31,7 +31,7 @@ export default {
     const getRandomPosition = () => Math.floor(Math.random() * (screenWidth - 50));
 
     for (let i = 0; i < 50; i++) {
-      const isBigNyomuka = Math.random() < 0.01;
+      const isBigNyomuka = Math.random() < 0.1;
 
       this.nyomukas.push({
         id: i,
